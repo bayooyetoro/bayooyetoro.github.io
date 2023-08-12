@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamiu Data Lab</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Jamiu B. Oyetoro</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Jamiu Oyetoro</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <div class="profile-img">
+          <img src="./assets//pic3 (2).jpg" alt="" srcset="">
+        </div>
+        <!-- <img src="./assets/profile-pic.png" alt="Jamiu profile picture" /> -->
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jamiu Oyetoro</h1>
+        <p class="section__text__p2">Data Analyst</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Jamiu-Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://www.linkedin.com/in/bayonleoyetoro/" target="_blank">
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon">
+        </a>
+        <a href="https://github.com/bayooyetoro" target="_blank">
+          <img src="./assets/github.png" alt="My LinkedIn profile" class="icon">
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <div class="about-img">
+            <img src="./assets/pic2 (2).jpg" alt="" srcset="">
+          </div>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Data and Business Analytics</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />Associate Data Analyst</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am data and business analyst well-versed in the use of MS Excel,
+              SQL, Power BI, Tableau, and R Programming Language to uncover
+              insights and patterns, and help businesses make data-driven
+              decisions.
+            </p>
+            <p>
+              Certified by Google, Microsoft, and DataCamp. And I am skilled in
+              database development and management, ETL, Data cleaning and
+              analysis, and visualization. .
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <!-- ----------------------- -->
+
+    <!-- Experience section -->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title-1">Technical Applications</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MS Excel</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Google Sheets</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power Apps</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title-1">Language and Database</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R Language</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Azure</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <!-- ------------------------- -->
+
+    <!-- Projects section -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers-projects">
+          <div class="color-container details-container-1">
+            <div class="article-container">
+              <div class="img-container">
+                <img
+                  src="./assets/olympics.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Olympics History<br/>Analysis with SQL
+            </h2>
+            <div class="btn-container">
+              <a href="https://github.com/bayooyetoro/Olympics-Challenge" target="_blank">
+
+                <button
+                  class="btn btn-color-2 project-btn source-file"
+                >
+                  GitHub
+                </button>
+              </a>
+
+              <a href="https://bayo-oyetoro.medium.com/sql-project-analysis-of-120-years-olympics-history-data-9ffd6e53e96" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+              >
+                  View Project
+                </button>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- 2nd Project -->
+          <div class="color-container details-container-1">
+            <div class="article-container">
+              <div class="img-container">
+                <img
+                  src="./assets/JustInTime.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Supply Chain Analysis<br/>with Power BI
+            </h2>
+            <div class="btn-container">
+              <a href="https://bayo-oyetoro.medium.com/supply-chain-analytics-with-power-bi-870f66d4cd3a" target="_blank">
+
+                <button
+                  class="btn btn-color-2 project-btn source-file"
+                >
+                  View Project
+                </button>
+              </a>
+
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiMTE4M2YxZjItMDNmNy00OTE2LTliYWUtZTM0NDVkYjVmMDk1IiwidCI6IjJiYjUyNzlmLThkMTUtNDBlNy05OWUyLTJjYzIzMTg0YzE2NiIsImMiOjh9" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+              >
+                  Dashboard
+                </button>
+              </a>
+
+            </div>
+          </div>
+
+        <!-- 3rd Project -->
+        <div class="color-container details-container-1">
+            <div class="article-container">
+              <div class="img-container">
+                <img
+                  src="./assets/bikes.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Revenue Analysis<br/>with SQL and Power BI
+            </h2>
+            <div class="btn-container">
+              <a href="https://github.com/bayooyetoro/BikeStore-Revenue" target="_blank">
+
+                <button
+                  class="btn btn-color-2 project-btn source-file"
+                >
+                  GitHub
+                </button>
+              </a>
+
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiMjFiMzExOWQtNGU1ZS00MTg4LWExMTItYzU5Yzc5MmQyYzk4IiwidCI6IjJiYjUyNzlmLThkMTUtNDBlNy05OWUyLTJjYzIzMTg0YzE2NiIsImMiOjh9" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+              >
+                  Dashboard
+                </button>
+              </a>
+
+            </div>
+          </div>
+          
+          <!-- 4th Project -->
+        <div class="color-container details-container-1">
+          <div class="article-container">
+            <div class="img-container">
+              <img
+                src="./assets/dash.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">
+            Sales Performance<br/>Analysis with Excel
+          </h2>
+          <div class="btn-container">
+            <a href="https://400zh4-my.sharepoint.com/personal/bayo_oyetoro_400zh4_onmicrosoft_com/_layouts/15/Doc.aspx?sourcedoc=%7B2d8aa418-4663-4804-8014-7e26328879de%7D&action=default&slrid=0bbdcfa0-00fb-7000-1482-6eab80caa306&originalPath=aHR0cHM6Ly80MDB6aDQtbXkuc2hhcmVwb2ludC5jb20vOng6L2cvcGVyc29uYWwvYmF5b19veWV0b3JvXzQwMHpoNF9vbm1pY3Jvc29mdF9jb20vRVJpa2lpMWpSZ1JJZ0JSLUpqS0llZDRCakE4dk5TVDJER25IeXh6SkVLdlBhdz9ydGltZT1yMHRoaWl5YjIwZw&cid=08357b39-7b06-4da9-8f6d-abdd493ab85e" target="_blank">
+
+              <button
+                class="btn btn-color-2 project-btn source-file"
+              >
+                Dashboard
+              </button>
+            </a>
+
+            <!-- <a href="https://app.powerbi.com/view?r=eyJrIjoiMjFiMzExOWQtNGU1ZS00MTg4LWExMTItYzU5Yzc5MmQyYzk4IiwidCI6IjJiYjUyNzlmLThkMTUtNDBlNy05OWUyLTJjYzIzMTg0YzE2NiIsImMiOjh9" target="_blank">
+            <button
+              class="btn btn-color-2 project-btn"
+            >
+                Dashboard
+              </button>
+            </a> -->
+
+          </div>
+        </div>
+
+        <!-- 5th Project -->
+        <div class="color-container details-container-1">
+          <div class="article-container">
+            <div class="img-container">
+              <img
+                src="./assets/project-music-player.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">
+            Music Genre and <br/>Mental Health Analysis
+          </h2>
+          <div class="btn-container">
+            <a href="https://bayo-oyetoro.medium.com/data-analysis-project-relationship-between-music-and-mental-health-7a49f9a35b25" target="_blank">
+
+              <button
+                class="btn btn-color-2 project-btn source-file"
+              >
+                View Project
+              </button>
+            </a>
+
+            <!-- <a href="https://app.powerbi.com/view?r=eyJrIjoiMjFiMzExOWQtNGU1ZS00MTg4LWExMTItYzU5Yzc5MmQyYzk4IiwidCI6IjJiYjUyNzlmLThkMTUtNDBlNy05OWUyLTJjYzIzMTg0YzE2NiIsImMiOjh9" target="_blank">
+            <button
+              class="btn btn-color-2 project-btn"
+            >
+                Dashboard
+              </button>
+            </a> -->
+
+          </div>
+        </div>
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <!-- -------------------- -->
+
+    <!-- Contact section -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:oyetorojamiu7@gmail.com">oyetorojamiu7@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/bayonleoyetoro/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------- -->
+
+    <!-- footer section -->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
